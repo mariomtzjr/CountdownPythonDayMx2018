@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Varela;
+    src: url("https://fonts.google.com/specimen/Varela+Round?selection.family=Varela+Round");
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #ffce3e;
+    font-family: Ubuntu;
+}
+
+body {
+    background-color: #e6e8ea;
+
+    color: #444;
+}
+
+.fecha{
+  padding-top:  10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.title{
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    font-size: 60px;
+}
+
+.hero {
+    width: 100%;
+
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+
+    text-align: center;
+    font-size: 15px;
+
+    /*background-image: url('https://papercallio-production.s3.amazonaws.com/uploads/event/logo/1339/PyMX.png');*/
+    background-image: url('https://www.statusvital.com/wp-content/uploads/2014/09/fotos-brain-varou.jpeg');
+    background-blend-mode: color;
+    /* background-color: rgba(52,58,64, .5); */
+    background-color: rgba(0,0,0,0.3);
+    background-size: cover;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.text-blue {
+    color: #366e9d;
+}
+
+.text-yellow {
+    color: #ffce3e;
+}
+
+.info{
+  font-size: 15px;
+}
+
+.container {
+    padding-top:  60px;
+    width: 80%;
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+hr {
+    height:3px;
+    border:none;
+    color:#366e9d;
+    background-color:#366e9d;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0, 0.2);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+h1.digitos{
+    width: 200px;
+    height: 130px;
+    font-size: 100px;
+    background: rgba(0,0,0,0.3);
+}
+
+div.hero .container-fluid .row{
+    justify-content: space-around;
+}
+
+p.improve{
+    font-size: 15px;   
+}
+
+#conteo{
+    display: flex;
+    margin-left: 50px;
+}
+
+@media (max-width:767px) {
+    .hero {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+}
+
+@media (max-width:1199px) {
+    .hero {
+        padding-top: 1em;
+        padding-bottom: 3em;
+    }
+}
